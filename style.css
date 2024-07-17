@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EBEBEB;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.title-hr {
+  width: 80px;
+  border: 2px solid #B59848;
+}
+
+.menu {
+  display: flex;
+  /* So overflow goes to the next row */
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto;
+  /* padding: 20px 90px; */
+}
+
+.item {
+  display: flex;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  width: 700px;
+  position: relative;
+}
+
+.item-image {
+  width: 320px;
+  border-radius: 20px;
+  border: 5px solid #B59848;
+}
+
+.item-label {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item-name {
+  display: inline-block;
+  flex: 1;
+  margin-bottom: 4px;
+
+}
+
+.item-price {
+  display: inline-block;
+  margin-right: 5px;
+  color: #C19D3A;
+  margin-bottom: 4px;
+
+}
+
+.item-desc {
+  margin-left: 20px;
+  width: 350px;
+  margin-right: 20px;
+}
+
+.item-label-hr {
+  margin: 0px 20px;
+  border: 0.4px solid lightgray;
+}
