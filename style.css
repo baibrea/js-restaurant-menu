@@ -72,3 +72,8 @@ html {
   margin: 0px 20px;
   border: 0.4px solid lightgray;
 }
+
+.category {
+  border: none;
+  border-radius: 4px;
+}
